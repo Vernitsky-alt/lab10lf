@@ -1,0 +1,29 @@
+{
+    "name": "vernitsky-alt/lab10lf",
+    "description": "lablf",
+    "type": "library",
+    "license": "-",
+    "authors": [
+        {
+            "name": "Andreev",
+            "email": "andreev@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload":{
+		"psr-4":{
+			"andreev\\": "andreev"
+		}
+	},
+    "require": {
+		"rok9ru/trpo-core": "2.0"
+	},
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	]
+
+}
+
